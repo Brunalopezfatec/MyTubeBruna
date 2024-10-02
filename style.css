@@ -1,0 +1,30 @@
+.video_principal {
+    margin-bottom: 20px;
+   margin: 15px; 
+}
+
+.videos_laterais iframe {
+    margin-bottom: 15px;
+    margin: 55px;
+}
+
+.incone_canal {
+    display: flex;
+    align-items: center;
+}
+
+.descricao_um {
+    margin-left: 10px;
+}
+
+.nome_curso {
+    color: #1E90FF;
+}
+
+.bg-footer {
+    background-color: #f8f9fa;
+}
+
+.text-black {
+    color: black;
+}

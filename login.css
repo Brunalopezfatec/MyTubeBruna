@@ -1,0 +1,112 @@
+/* Estilos existentes para o layout principal */
+.video_principal {
+    margin-bottom: 20px;
+    margin: 15px;
+}
+
+.videos_laterais iframe {
+    margin-bottom: 15px;
+    margin: 55px;
+}
+
+.incone_canal {
+    display: flex;
+    align-items: center;
+}
+
+.descricao_um {
+    margin-left: 10px;
+}
+
+.nome_curso {
+    color: #1E90FF;
+}
+
+.bg-footer {
+    background-color: #f8f9fa;
+}
+
+.text-black {
+    color: black;
+}
+
+/* Estilos para a página de login */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    padding-top: 50px; /* Espaço superior */
+}
+
+/* Contêiner do formulário de login */
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo do cartão de login */
+.card {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: white;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+/* Estilos para os campos de entrada (input) */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #1E90FF; /* Cor de borda ao focar nos campos */
+    outline: none;
+}
+
+/* Botão de login */
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #4682b4; /* Cor ao passar o mouse */
+}
+
+/* Mensagem de sucesso */
+#loginMessage {
+    margin-top: 20px;
+    color: #28a745; /* Cor verde para sucesso */
+    font-size: 18px;
+}
+
+/* Estilos de navegação */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Ajuste de responsividade */
+@media (max-width: 576px) {
+    .container {
+        padding: 15px;
+    }
+}
